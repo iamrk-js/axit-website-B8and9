@@ -2,9 +2,7 @@
     font-size: 16px;  
      here 16px == 1rem 
 } */
-.section {
-    padding: 7.5rem 0;
-}
+
 
 /* ################## css for header section  ############### */
 .mainHeader {
@@ -209,4 +207,40 @@
 
 #myTabContent {
     padding-left: 100px;
+}
+
+
+/* feature two css  */
+
+.featureImages {
+    box-shadow: 5px 10px 10px rgba(0,0,0,.3);
+    transition: all .4s ease-in-out;
+}
+
+.featureImages:hover,
+.featureImages:focus,
+.featureImages:active
+ {
+    box-shadow: 10px 1.25rem 1.25rem rgba(0,0,0,.5);
+    transform: translateY(-3px ) scale(1.03);
+}
+
+.cloudIcon {
+    display: flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    justify-content: center;
+    border: 2px solid var(--color-primary);
+    align-items: center;
+    border-radius: 50%;
+}
+
+.cloudIcon i {
+    font-size: 1.125rem;
+    color: var(--color-primary);
+}
+
+
+.features3{
+    background-color: var(--color-secondary);
 }

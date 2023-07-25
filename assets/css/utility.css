@@ -11,6 +11,10 @@
     --color-white: #fff;
 }
 
+.section {
+    padding: 7.5rem 0;
+}
+
 .pri-heading{
     color: var(--color-text-pri);
     font-size: 2.25rem;
@@ -22,7 +26,11 @@
     color: var(--color-dark);
     text-transform: capitalize;
 }
-
+.tri-heading{
+    color: var(--color-text-pri);
+    font-weight: 500;
+    text-transform: capitalize;
+}
 
 .para{
     color: var(--color-text-sec);
