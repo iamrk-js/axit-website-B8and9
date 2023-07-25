@@ -6,6 +6,7 @@
     --color-text-pri : #212121;
     --color-text-sec:#86878b;
     --color-border: #b7b7b7;
+    --color-bg: #333333;
     --color-dark: #000;
     --color-white: #fff;
 }
@@ -25,4 +26,26 @@
 
 .para{
     color: var(--color-text-sec);
+}
+
+
+.short-border, .short-border-orange {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.short-border::after,.short-border-orange::after {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    width: 65px;
+    height: 3px;
+    left: 5px;
+}
+
+.short-border::after{
+    background-color: var(--color-white);
+}
+.short-border-orange::after{
+    background-color: var(--color-primary);
 }
