@@ -14,7 +14,9 @@
 .section {
     padding: 7.5rem 0;
 }
-
+.bg-grey{
+    background-color: var(--color-secondary)
+}
 .pri-heading{
     color: var(--color-text-pri);
     font-size: 2.25rem;
@@ -56,4 +58,9 @@
 }
 .short-border-orange::after{
     background-color: var(--color-primary);
+}
+
+.border-center.short-border-orange::after{
+    left: 50%;
+    transform: translateX(-50%);
 }
