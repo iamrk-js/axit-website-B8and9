@@ -327,3 +327,46 @@
 .mostPopuler .populerInfo {
     background-color: var(--color-primary);
 }
+
+
+/* feddback section css  */
+.feedbackCard{
+    width: 90%;
+}
+.feedbackCard blockquote {
+    background-color:var(--color-secondary);
+    padding: 25px 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    position: relative;
+    line-height: 1.25;
+    font-weight: lighter;
+}
+
+.feedbackCard blockquote::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: var(--color-secondary);
+    bottom: -10px;
+    left: 25px;
+    position: absolute;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.feedbackCard  small{
+    font-size: 14px;
+    color: var(--color-text-sec);
+}
+
+
+/* css for design section  */
+
+.design{
+    background-image: url(../images/designBg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
